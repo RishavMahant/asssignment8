@@ -1,0 +1,24 @@
+Write up file:
+
+The features which I believe to have implemented correctly are :
+
+(1) The letter tiles in the player's "hand" are selected randmonly from a data structure with
+	the proper distribution of the letters
+(2)Letter tiles can be dragged and dropped onto target Scrabble squares
+(3)program identifies which letter tile is dropped onto whcih Scrabble square
+(4)board includes bonus squares
+(5)score is tallied correctly, including consideration of bonus square multipliers
+(6)any number of words can be played until player wishes to quit
+(7)the board is cleared after each round so that a new word can be played
+(8)After playing a word, only the number of letter tiles needed to bring the
+  player's "hand" back to 7 tiles are selected.
+(9)score is kept for multiple words. 
+(10)Tiles can only be dragged from the rack to Scrabble board. If the user drop them anywhere 
+  else , they will be bounced back to the " rack".
+(11)User can always restart the game
+
+Partial implementation:
+(1)Once the tile is placed it can be moved based on user to make it more easier for the user
+  to access the file
+(2)Except for the first letter, all subsequent letters must be placed directly next to or
+  below letters with no space. Else, they will bounce back, but they wont bounce back
